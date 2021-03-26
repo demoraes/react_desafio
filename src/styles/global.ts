@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+// import ImgBackground from '../assets/idea.jpg';
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -9,7 +11,7 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #312E38;
+    background: #fff;
     color: #fff;
     -webkit-font-smoothing: antialiased;
   }
@@ -22,6 +24,7 @@ export default createGlobalStyle`
   h1, h2, h3, h4, h5, h6, strong {
     font-weight:900;
   }
+
 
   button {
     cursor: pointer;
